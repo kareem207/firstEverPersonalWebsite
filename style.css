@@ -1,0 +1,176 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Lobster|PT+Sans+Narrow|Raleway&display=swap');
+
+
+/*       Format          */
+h1,h2,p {
+
+	font-family: 'Raleway', sans-serif;
+	color: #F0F1F1;
+
+
+}
+
+
+
+/* index style  */
+
+.cover{
+	background-image: url(img/index.jpg);
+ 	background-size:cover;
+}
+
+.mid{
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left:30%;
+    margin-left: -50px;
+
+}
+
+.but{
+
+
+	padding: 5px 15px 5px 15px;
+	margin: 5px;
+	background: none;
+	border: 1px solid white;
+	color :white;
+}
+
+.but:hover,active{
+
+
+	padding: 8px 25px 8px 25px;
+	margin: 5px;
+	background-color:#F5B041;
+	transition: 1s;
+	border: 1px solid #D4AC0D;
+	border-radius: 50px;
+	color :white;
+	cursor: pointer;
+
+
+
+	
+}
+
+
+/*    Pesonal page    */
+
+.coverr{
+	background-image: url(img/backg.jpg);
+ 	background-size:cover;
+ 	opacity: 0.7;
+}
+
+
+
+.midper{
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left:65%;
+    margin-left: -50px;
+    color:black;
+
+}
+
+.midperlogo{
+	text-align: center;
+	position: absolute;
+	top: 55%;
+	left:25%;
+    margin-left: -50px;
+    color:black;
+
+}
+
+footer{
+
+	background-color: black;
+	height: 65px;
+	width: 99.5%;
+	position: fixed;
+	text-align:center;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+
+
+
+
+}
+
+
+/* Web gallary page  */
+.mid-web{
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left:38%;
+    margin-left: -50px;
+}
+
+.gif{
+	width: 300px;
+	height:150px;
+}
+.spbut{
+
+
+	padding: 5px 15px 5px 15px;
+	margin: 5px;
+	background: none;
+	border: 1px solid white;
+	color :white;
+}
+
+.spbut:hover,active{
+
+
+	padding: 8px 25px 8px 25px;
+	margin: 5px;
+	background-color:white;
+	transition: 1s;
+	border: 1px solid #D4AC0D;
+	border-radius: 50px;
+	color :grey;
+	cursor: pointer;
+
+}
+/*social media logos */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 3px  ;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: green;
+  color: white;
+
+
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
